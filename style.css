@@ -1,0 +1,35 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ffa600, #3ef3cc, #e2ef72);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#img1{border-radius: 20%;}
+.lead{font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: oblique;}
+h1{font-family: 'Times New Roman', Times, serif;
+font-style: oblique;}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+.img2{border-radius: 50%;}
+.par1{font-family: Georgia, 'Times New Roman', Times, serif;}
+#oli{color: #eb2005;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#h31{color: #3114d69a;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;}
